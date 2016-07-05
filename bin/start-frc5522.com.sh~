@@ -1,0 +1,7 @@
+#!bin/bash
+cd ~/servers
+while true; do
+    node frc5522.com.js
+    cd ~/frc5522.com
+    git pull
+done
